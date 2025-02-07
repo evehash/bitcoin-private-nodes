@@ -1,28 +1,12 @@
 # bitcoin-private-nodes
 
-A curated list of Bitcoin full nodes running as **Tor v3 onion services** and **I2P nodes**.  
+A curated list of Bitcoin full nodes running as **Tor v3 onion services** and **I2P nodes**.
+
 This list can serve as a useful **bootstrap source** for nodes operating exclusively over privacy networks.  
 
 These nodes have been observed at a given point in time, but **availability is not guaranteed**.
 
 Currently, the list contains **X onion nodes** and **Y I2P nodes**.
-
-## 📌 Why does this list exist?
-
-When setting up a **privacy-focused Bitcoin node**, finding peers can be challenging—especially if you want to operate entirely over **Tor** or **I2P**.  
-
-Bitcoin’s built-in peer discovery works, but it can be slow for hidden services.  
-This list provides **known peers** to help new nodes quickly establish initial connections.
-
-## 🔍 How is this list generated?
-
-These addresses are collected using periodic queries to a running Bitcoin node:
-
-```bash
-bitcoin-cli getpeerinfo
-```
-
-No special techniques—just simple observation of reachable nodes.
 
 ## 🚀 How to use the node list
 
