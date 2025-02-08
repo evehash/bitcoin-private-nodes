@@ -6,8 +6,6 @@ This list can serve as a useful **bootstrap source** for nodes operating exclusi
 
 These nodes have been observed at a given point in time, but **availability is not guaranteed**.
 
-Currently, the list contains **X onion nodes** and **Y I2P nodes**.
-
 ## 🚀 How to use the node list
 
 To connect your bitcoind instance using this list, add the following lines to your bitcoin.conf file:
